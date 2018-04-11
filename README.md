@@ -1,5 +1,5 @@
 # 正则表达式
-## NSPredicate
+## 一、NSPredicate
 ### 1.NSPredicate常用的语法格式
 	① 比较运算符>,<,==,>=,<=,!=可用于数值及字符串;例
 	@"number" > 100
@@ -25,7 +25,7 @@
 	② NSPredicate还可以用来对数据进行过滤,类似于SQL中的where,我们可以从数组中过
 	滤出想要的数据;
   
-## NSRegularExpression
+## 二、NSRegularExpression
 	NSRegularExpression是ios对正则的封装;可以通过正则判断字符串是否符合某种规则,
 	也可通过正则对字符串进行截取(截取出需要的字符串);
 	例:
