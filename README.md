@@ -2,7 +2,7 @@
 ## NSPredicate
 ### 1.NSPredicate常用的语法格式
 	① 比较运算符>,<,==,>=,<=,!=可用于数值及字符串;例     
-       `@"number" > 100`   
+         `@"number" > 100`   
     ② 范围运算符:IN,BETWEEN.例    
      `@"number BETWEEN {1,5}"`
      `@"address IN {'shanghai','beijing'}"`
