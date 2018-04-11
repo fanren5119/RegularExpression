@@ -20,15 +20,15 @@
 	NSString *regex = @"^A.+e$"; //以A开头,e结尾
 	@"name MATCHES %@", regex
 ### 2.NSPredicate的应用
-      ① NSPredicate可以用来检测字符串是否符合某种规则,例如判断字符串是否是电话号码
-    字符串是否是邮件格式等;
-      ② NSPredicate还可以用来对数据进行过滤,类似于SQL中的where,我们可以从数组中过
-    滤出想要的数据;
+	① NSPredicate可以用来检测字符串是否符合某种规则,例如判断字符串是否是电话号码
+	字符串是否是邮件格式等;
+	② NSPredicate还可以用来对数据进行过滤,类似于SQL中的where,我们可以从数组中过
+	滤出想要的数据;
   
 ## NSRegularExpression
-      NSRegularExpression是ios对正则的封装;可以通过正则判断字符串是否符合某种规则,
-    也可通过正则对字符串进行截取(截取出需要的字符串);
-      例:
+	NSRegularExpression是ios对正则的封装;可以通过正则判断字符串是否符合某种规则,
+	也可通过正则对字符串进行截取(截取出需要的字符串);
+	例:
 ```
     NSString *string = @"1[aaa]e[bbb]f[ccc]2";
     NSString *regx = @"(?<=\\[)([^(\\[\\])]*)(?=\\])";
